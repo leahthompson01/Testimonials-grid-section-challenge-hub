@@ -32,12 +32,12 @@ body {
     line-height: 30px;
     width: 100%;
 }
-.container h4{
+.container h2{
     color: hsl(0, 0%, 81%);
     font-weight: 500;
 }
 
-.container h4+h4 {
+.container h2+h2 {
     color: hsl(0, 0%, 81%, 50%);
 }
 
@@ -112,11 +112,9 @@ body {
 }
 
 .item-c h1,
-.item-e h1,  
-.item-c h3, 
-.item-e h3,
-.item-e h4,
-.item-c h4
+.item-e h1,
+.item-e h2,
+.item-c h2
 {
     color: hsl(217, 19%, 35%);
 }
@@ -126,8 +124,8 @@ body {
     color:hsla(217, 19%, 35%, 75%);
 }
 
-.item-c h4+h4,
-.item-e h4+h4 {
+.item-c h2+h2,
+.item-e h2+h2 {
     color: hsla(217, 19%, 35%, 50%);
 }
 
